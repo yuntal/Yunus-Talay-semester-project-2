@@ -4,7 +4,7 @@ This is an e-commerce website
 
 ## Description
 
-On this website the user should be able to view a list of products, and add them to the shopping bag.The user should also be able to log in  and  logout successfully.  
+On this website the user should be able to view a list of products, and add them to the shopping bag.The user should also be able to log in  and  logout successfully. Once the login is successfull, user credentials will be stored in localstorage. 
 
 
 ## Built With
@@ -34,7 +34,6 @@ Login credentials:
 username: admin@admin.com
 
 password: Pass1234
-
 
 
 
