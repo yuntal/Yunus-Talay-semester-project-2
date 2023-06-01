@@ -1,0 +1,178 @@
+ .log-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:3%;
+}
+
+
+#username, #password{
+    border:1px solid $primary;
+    border-radius:4px;
+    background-color:$plain;
+ }
+
+label{
+    color:$primary;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display:block;
+}
+
+
+.form-log {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top:10%;
+    margin-bottom:15%;
+    font-family:'source sans pro';
+}
+
+.form-log > div {
+    margin-bottom: 1rem;
+}
+
+.form-log input {
+    width: 100%;
+    padding: 0.4rem;
+    background:none;
+    border:none;
+}
+
+.form-log h1{
+    text-transform:uppercase;
+    font-family:'source sans pro';
+    font-size:1.5em;
+    letter-spacing: 2px;
+    margin-bottom:15%;
+    text-align: center;
+}
+
+
+.sign-in{
+    color:var$primary;
+    width:100%;
+    background-color:$plain;
+    height:35px;
+    letter-spacing: 2px;
+    border:1px solid $primary;
+    margin-top:5%;
+    font-weight:bolder;
+    border-radius:4px;
+    text-transform: uppercase;
+}
+
+.sign-in:hover{
+    background-color:$primary;
+    color:$plain;
+}
+
+
+.logout{
+    color:$secondary !important;
+    cursor:pointer;
+}
+
+.message {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid $primary;
+    color: $primary;
+    font-family:'source sans pro';
+}
+
+.message.error {
+    border-color: $secondary;
+    color: $plain;
+    background: $secondary;
+    font-family:'source sans pro';
+}
+
+.message.warning {
+    border-color: $secondary;
+    color: $plain;
+    background:$secondary;
+    font-family:'source sans pro';
+}
+
+.message.success {
+    border-color: $success;
+    color: $plain;
+    background: $success;
+    font-family:'source sans pro';
+}
+
+
+
+@media (min-width:280px) and (max-width:414px){
+
+    .menu a {
+        text-decoration: none;
+        padding-right:1rem;
+    }
+    .menu{
+        padding-left:2.3rem;
+        margin-top:2%;
+    }
+
+    .form-log{
+        width:80%;
+        margin-top:30%;
+    }
+}
+
+
+
+@media (min-width:415px) and (max-width:640px){
+
+    .menu{
+        padding-left:3rem;
+    }
+
+    .form-log{
+        margin-top:30%;
+    }
+}
+
+@media (min-width:641px) and (max-width:667px){
+   
+    .menu{
+        padding-left:5rem;
+    }
+    .form-log{
+        margin-top:30%;
+    }
+}
+
+
+@media (min-width:719px) and (max-width:768px){
+
+ .menu{
+     padding-left:1.4rem;
+ }
+
+.form-log{
+    margin-top:20%;
+}
+}
+
+
+@media (min-width:811px) and (max-width:823px){
+   
+    .menu{
+        padding-left:1.6em;
+    }
+    .form-log{
+        margin-top:20%;
+    }
+   }
+
+@media (min-width:824px) and (max-width:1024px){
+
+    .menu{
+        padding-left:2.3rem;
+    }
+}
+
+
+
+

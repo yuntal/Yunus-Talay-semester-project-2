@@ -1,0 +1,130 @@
+  h1 {
+      margin-left: 0%;
+      font-size:1.2em;
+      margin-top:3%;
+      margin-bottom:2%;
+      font-family:'open sans';
+  }
+  
+  h2{
+    font-size:1em;
+    margin-bottom:2%;
+    font-family:'source sans pro';
+  }
+
+
+h4{
+    font-size:1em;
+    text-decoration: none;
+    font-weight:bolder;
+    margin-top:10%;
+}
+
+h5{
+    font-size:1em;
+    text-decoration: none;
+}
+
+
+p{
+    font-family:'source sans pro';
+}
+
+
+.card-title{
+    font-family:'open sans';
+  }
+  
+  .card-text{
+   font-family:'source sans pro';
+   font-weight:bolder;
+  }
+  
+  .empty{
+    text-transform:uppercase;
+    font-family:'source sans pro';
+    font-size:1.5em;
+    position: absolute;
+    top: 35%;
+    letter-spacing: 2px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.loader{
+    text-transform:uppercase;
+    font-family:'source sans pro';
+    font-size:1.5em;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader2{
+    text-transform:uppercase;
+    font-family:'source sans pro';
+    font-size:1.5em;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+@media (min-width:280px) and (max-width:414px){
+    .loader2{
+        width:100%;
+        text-align: center;
+        top:35%;
+    }
+    .empty{
+        width:100%;
+        text-align: center;
+        top:30%;
+    }
+}
+
+
+
+@media (min-width:415px) and (max-width:667px){
+
+
+    .loader2{
+        top:40%;
+    }
+    .empty{
+        text-align: center;
+        top:30%;
+    }
+}
+
+
+@media (min-width:719px) and (max-width:823px){
+   
+.loader2{
+    top:50%;
+}
+.empty{
+    text-align: center;
+    top:30%;
+}
+}
+
+
+@media (min-width:824px) and (max-width:1024px){
+    
+    .loader2{
+        top:60%;
+    }
+    .empty{
+        text-align: center;
+        top:30%;
+    }
+}
+
+
